@@ -8,7 +8,6 @@ var random_dollar = function(){
 var act_balance = function(){
     return 'Account Balance: \n';
 };
-console.log(random_dollar());
 
-module.exports = random_dollar;
-module.exports = act_balance;
+module.exports.random_dollar = random_dollar;
+module.exports.act_balance = act_balance;
